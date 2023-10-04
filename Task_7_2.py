@@ -25,7 +25,7 @@ def code(string, n):
                 if mesto + n <= 26:
                     new_mesto = mesto + n
                 else:
-                    new_mesto = mesto + (n - 26)
+                    new_mesto = mesto + n - 26
             else:
                 if mesto + n <= 26:
                     new_mesto = mesto + n
